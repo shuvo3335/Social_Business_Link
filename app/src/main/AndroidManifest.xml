@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.redoy.lynk">
+
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+
+    <application
+        android:name=".application.LynkApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+       <!-- <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>-->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4144304196664013~2949259096"/>
+
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/title_fragment_voice_search"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.NotificationSettings"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.IntroductionActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.LogInActivity"
+            android:label="@string/log_in_screen_title"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:label="@string/Sign_up_screen_title"
+            android:screenOrientation="fullSensor" />
+
+        <service
+            android:name=".service.LocationAlertIntentService"
+            android:allowBackup="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".activity.ProfileActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.PhotosActivity"
+            android:label="Photos"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.BusinessInformationRegistrationActivity"
+            android:label="@string/business_registration_screen_title"
+            android:screenOrientation="fullSensor" />
+    </application>
+
+</manifest>

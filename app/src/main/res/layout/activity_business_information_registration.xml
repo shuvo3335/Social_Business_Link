@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/large"
+        android:paddingLeft="@dimen/huge"
+        android:paddingRight="@dimen/huge"
+        android:paddingTop="@dimen/huge">
+
+        <requestFocus />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_full_name"
+            android:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_password"
+            android:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_confirm_password"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_email"
+            android:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_verified_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_verified_phone"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:inputType="phone"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_business_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_business_name"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_business_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_business_description"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_business_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_business_location"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <AutoCompleteTextView
+            android:id="@+id/registration_edit_text_widget_business_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:ems="10"
+            android:hint="@string/business_registration_hint_business_category"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only"
+            android:theme="@style/Autocomplete" />
+
+        <AutoCompleteTextView
+            android:id="@+id/registration_edit_text_widget_thana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:ems="10"
+            android:hint="@string/business_registration_hint_thana"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only"
+            android:theme="@style/Autocomplete" />
+
+        <AutoCompleteTextView
+            android:id="@+id/registration_edit_text_widget_google_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:ems="10"
+            android:hint="@string/business_registration_hint_google_location"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only"
+            android:theme="@style/Autocomplete" />
+
+        <EditText
+            android:id="@+id/registration_edit_text_widget_deals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_edittext_background"
+            android:hint="@string/business_registration_hint_deals"
+            android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious"
+            android:padding="@dimen/edit_text_padding_login_screen_only" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium"
+            android:layout_marginTop="@dimen/large"
+            android:background="@drawable/rounded_button_app_color"
+            android:text="@string/business_registration_submit_button_title"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</ScrollView>

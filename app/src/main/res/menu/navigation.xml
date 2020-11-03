@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_voice_search"
+        android:icon="@drawable/ic_search_black_18dp"
+        android:title="@string/nav_item_voice_search"
+        app:showAsAction="always|withText" />
+
+
+    <item
+        android:id="@+id/navigation_map_search"
+        android:icon="@drawable/ic_location_on_black_24dp"
+        android:title="@string/nav_item_map_search"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings_applications_black_18dp"
+        android:title="@string/nav_item_settings"
+        app:showAsAction="always|withText" />
+
+</menu>

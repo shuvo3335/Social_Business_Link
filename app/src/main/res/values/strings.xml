@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Lynk</string>
+    <string name="title_fragment_voice_search">Voice Search</string>
+    <string name="title_fragment_google_map_search">Google Map Search</string>
+    <string name="title_fragment_settings">Settings</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+
+    <string name="nav_item_voice_search">Voice Search</string>
+    <string name="nav_item_map_search">Map Search</string>
+    <string name="nav_item_settings">Settings</string>
+
+    <string name="notification_settings_screen_title">Notification</string>
+    <string name="log_in_screen_title">Log In</string>
+    <string name="Sign_up_screen_title">Sign Up</string>
+    <string name="rate_the_app_title">Rate the App</string>
+    <string name="about_screen_title">About</string>
+    <string name="introduction_screen_catch_phrase_title">GET YOUR BUSINESS FOUND</string>
+    <string name="introduction_screen_catch_phrase_text">justlynk.com is simple, affordable and comprehensive to cover all your advertising needs.</string>
+    <string name="introduction_screen_login_button">Log in</string>
+    <string name="introduction_screen_sign_up_button">Sign up</string>
+
+    <string name="tap_on_microphone_to_speak">Tap on Microphone to Speak</string>
+
+    <string name="sign_up_login_hint_name">Name</string>
+    <string name="sign_up_login_hint_mobile">Mobile</string>
+    <string name="sign_up_login_hint_email">Email</string>
+    <string name="sign_up_login_hint_email_or_mobile">Email or Mobile</string>
+    <string name="sign_up_login_hint_password">Password</string>
+    <string name="sign_up_login_hint_confirm_password">Confirm Password</string>
+
+    <string name="sign_up_login_main_button_label_login">Log in</string>
+    <string name="sign_up_login_main_button_label_sign_up">Sign up</string>
+    <string name="sign_up_login_button_forgot_password">Forgot password</string>
+
+    <string name="connection_msg1">No Network Connection!!!</string>
+
+    <string name="reset_password_dialog_title">Reset Password</string>
+    <string name="reset_password_email_address_label">E-Mail Address</string>
+
+    <string name="review_description">Put the ginger and garlic into a bowl and mix with the soy sauce, maple syrup, mirin and a drizzle of olive oil</string>
+
+    <string name="business_registration_submit_button_title">Submit</string>
+
+    <string name="business_registration_hint_full_name">Full Name</string>
+    <string name="business_registration_hint_email">Email</string>
+    <string name="business_registration_hint_password">Password</string>
+    <string name="business_registration_hint_confirm_password">Confirm Password</string>
+    <string name="business_registration_hint_business_name">Business Name</string>
+    <string name="business_registration_hint_business_description">Business Description</string>
+    <string name="business_registration_hint_business_category">Business Category</string>
+    <string name="business_registration_hint_google_location">Google Location</string>
+    <string name="business_registration_hint_business_location">Business Address</string>
+    <string name="business_registration_hint_phone">Phone</string>
+    <string name="business_registration_hint_verified_phone">Verified Phone</string>
+    <string name="business_registration_hint_thana">Thana</string>
+    <string name="business_registration_hint_deals">Deals</string>
+
+    <string name="business_registration_screen_title">Business Registration</string>
+
+</resources>
